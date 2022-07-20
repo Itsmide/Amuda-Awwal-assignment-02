@@ -57,16 +57,10 @@ assignment.countEvenNumbers = countEvenNumbers;
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
   
-  i = 0;
-  while (i < arrayOfNumbers.length) {
-    var fahrenheit = [];
-    x = Math.trunc((arrayOfNumbers[i] * 1.8) +32);
-    fahrenheit.push(x);
-    i++;
-  }
-  return 
+  
+  return celsiusToFahrenheit
 }
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+//assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
